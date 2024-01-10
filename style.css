@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+body
+{
+    background-image: 'https://webneel.com/daily/sites/default/files/images/daily/04-2013/10-best-sunrise-photography.jpg';
+    background-size: cover;
+}
+* 
+{
+    font-family: 'Titan One', cursive;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.grid-container 
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(auto, 1fr); 
+}
+.grid-item img
+{
+    width: 400px;
+    object-fit: cover;
+}
+.grid-item 
+{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+.rows
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
